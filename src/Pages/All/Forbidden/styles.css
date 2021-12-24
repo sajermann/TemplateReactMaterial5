@@ -1,0 +1,87 @@
+body{
+  /* background-color: black; */
+}
+.MuiTableCell-root{
+  /* background-color: black !important; */
+  color: white;
+}
+
+.superbox{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box{
+  border: 1px solid black;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selected{
+  background: #E1FAEC;
+  border: 1px solid #34CB79;
+}
+
+.boxInternal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px
+}
+
+.boxInternal span{
+  margin-left: 3px;
+}
+
+@media print {
+  /*New*/
+  .aside {
+      display: none;
+  }
+
+  .header {
+      display: none;
+  }
+
+  .footer {
+      display: none;
+  }
+
+  .tools {
+      display: none;
+  }
+
+  .hideInPrint {
+      display: none;
+  }
+
+  #lancamentos {
+      margin-top: 60px
+  }
+
+  .superbox{
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+  
+  .MuiFormControl-root{
+    margin-top: 8px !important;
+  }
+
+  .box:nth-child(33), .box:nth-child(34), .box:nth-child(35), .box:nth-child(36), .box:nth-child(65)
+  , .box:nth-child(66), .box:nth-child(67), .box:nth-child(68), .box:nth-child(97), .box:nth-child(98), .box:nth-child(99), .box:nth-child(100){
+    margin-top: 130px;
+  }
+
+  @page {
+    margin: 0.00cm 0.5cm;
+}
+
+}
