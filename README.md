@@ -20,4 +20,4 @@ My template of React 17 with Material UI 5 more essentials libraries.
 - [x] Prettier: "^2.5.1",
 - [x] Typescript: "^4.5.4"
 
-* I have troubles with React Router Dom 6, and for that reason I chose install version 5.
+* I had troubles with React Router Dom 6, and for that reason I chose install version 5.
